@@ -2,9 +2,7 @@
 <pack>
     <snippet actorid="2" attachedevent="true" class="scripts.ActorEvents_2" classname="scripts.ActorEvents_2" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="2" name="ActorEvents_2" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
-        <events>
-            <event displayName="Updating" enabled="true" id="2" name="step" order="2" repeats="true"/>
-        </events>
+        <events/>
     </snippet>
     <snippet actorid="4" attachedevent="true" class="scripts.ActorEvents_4" classname="scripts.ActorEvents_4" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="3" name="ActorEvents_4" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
