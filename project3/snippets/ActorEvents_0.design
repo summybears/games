@@ -13,7 +13,7 @@
                     </group>
                     <keystate comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
-                        <CONTROL eid="1" id="1"/>
+                        <control eid="1" id="1"/>
                     </keystate>
                 </if>
                 <else-if comment="false" x="26" y="112">
@@ -26,7 +26,7 @@
                     </group>
                     <keystate comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
-                        <CONTROL eid="5" id="1"/>
+                        <control eid="5" id="1"/>
                     </keystate>
                 </else-if>
                 <else comment="false" x="26" y="184">
@@ -48,7 +48,7 @@
                     </group>
                     <keystate comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
-                        <CONTROL eid="6" id="1"/>
+                        <control eid="6" id="1"/>
                     </keystate>
                 </if>
                 <else-if comment="false" x="26" y="315">
@@ -61,7 +61,7 @@
                     </group>
                     <keystate comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
-                        <CONTROL eid="3" id="1"/>
+                        <control eid="3" id="1"/>
                     </keystate>
                 </else-if>
                 <else comment="false" x="26" y="387">

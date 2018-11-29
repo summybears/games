@@ -5,8 +5,16 @@
         <events/>
     </snippet>
     <snippet actorid="4" attachedevent="true" class="scripts.ActorEvents_4" classname="scripts.ActorEvents_4" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="3" name="ActorEvents_4" oid="-1" package="scripts." shared="false" type="actor">
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="TOUCH" hidden="false" id="1" name="_TOUCH" order="0"/>
+        <actor default="" defaultValue="" desc="" dropdown="" fullname="touchFloor" hidden="false" id="2" name="_touchFloor" order="1"/>
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="touchfloor" hidden="false" id="3" name="_touchfloor" order="2"/>
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Updating" enabled="true" id="1" name="step" order="1" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="2" name="step" order="2" repeats="true"/>
+            <event displayName="Actor - Group" enabled="true" id="3" name="event-collide-actortogroup" order="4" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="4" name="step" order="3" repeats="true"/>
+        </events>
     </snippet>
     <snippet actorid="6" attachedevent="true" class="scripts.ActorEvents_6" classname="scripts.ActorEvents_6" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="4" name="ActorEvents_6" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
