@@ -43,7 +43,7 @@
                         <set-dxy comment="false" x="37" y="276">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
-                            <int id="2" val="10"/>
+                            <int id="2" val="-10"/>
                         </set-dxy>
                     </group>
                     <keystate comment="false" id="0" x="0" y="0">
@@ -56,7 +56,7 @@
                         <set-dxy comment="false" x="37" y="348">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
-                            <int id="2" val="-10"/>
+                            <int id="2" val="10"/>
                         </set-dxy>
                     </group>
                     <keystate comment="false" id="0" x="0" y="0">
@@ -77,94 +77,4 @@
         </step>
     </group>
     <group eventID="1" id="-1"/>
-    <group eventID="2" id="0">
-        <step comment="false" x="15" y="15">
-            <group eventID="2" id="-1">
-                <set-dxy comment="false" x="26" y="40">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="0"/>
-                    <int id="2" val=""/>
-                </set-dxy>
-                <if comment="false" x="26" y="67">
-                    <group eventID="2" id="-1">
-                        <set-dxy comment="false" x="37" y="100">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="0"/>
-                            <int id="2" val="20"/>
-                        </set-dxy>
-                    </group>
-                    <keystate comment="false" id="0" x="0" y="0">
-                        <int id="0" val="0"/>
-                        <control eid="4" id="1"/>
-                    </keystate>
-                </if>
-                <else-if comment="false" x="26" y="139">
-                    <group eventID="2" id="-1">
-                        <set-dxy comment="false" x="37" y="172">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="0"/>
-                            <int id="2" val="-20"/>
-                        </set-dxy>
-                    </group>
-                    <keystate comment="false" id="0" x="0" y="0">
-                        <int id="0" val="0"/>
-                        <control eid="5" id="1"/>
-                    </keystate>
-                </else-if>
-            </group>
-        </step>
-    </group>
-    <group eventID="2" id="3">
-        <and comment="false" x="0" y="378">
-            <int id="0" val=""/>
-            <int id="1" val=""/>
-        </and>
-    </group>
-    <group eventID="2" id="-1"/>
-    <group eventID="3" id="0">
-        <event-collide-actortogroup comment="false" x="15" y="15">
-            <group eventID="3" id="-1">
-                <set-val-3-3 comment="false" x="26" y="47">
-                    <true comment="false" id="0" x="0" y="0"/>
-                </set-val-3-3>
-            </group>
-            <ACTOR eid="this" id="0"/>
-            <actorgroup eid="1" id="1"/>
-        </event-collide-actortogroup>
-    </group>
-    <group eventID="3" id="-1"/>
-    <group eventID="4" id="0">
-        <step comment="false" x="0" y="107">
-            <group eventID="4" id="-1">
-                <if comment="false" x="11" y="132">
-                    <group eventID="4" id="-1">
-                        <set-dxy comment="false" x="22" y="170">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="1"/>
-                            <int id="2" val="-20"/>
-                        </set-dxy>
-                        <set-val-3-3 comment="false" x="22" y="197">
-                            <false comment="false" id="0" x="0" y="0"/>
-                        </set-val-3-3>
-                    </group>
-                    <and comment="false" id="0" x="0" y="0">
-                        <keystate comment="false" id="0" x="0" y="0">
-                            <int id="0" val="0"/>
-                            <control eid="4" id="1"/>
-                        </keystate>
-                        <eq comment="false" id="1" x="0" y="0">
-                            <get-val-3-3 comment="false" id="0" x="0" y="0"/>
-                            <true comment="false" id="1" x="0" y="0"/>
-                        </eq>
-                    </and>
-                </if>
-            </group>
-        </step>
-    </group>
-    <group eventID="4" id="-1">
-        <keystate comment="false" x="43" y="303">
-            <int id="0" val="0"/>
-            <control eid="0" id="1"/>
-        </keystate>
-    </group>
 </groups>
