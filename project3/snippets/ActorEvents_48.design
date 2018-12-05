@@ -19,14 +19,14 @@
             </group>
         </collide>
     </group>
-    <group eventID="1" id="3">
+    <group eventID="1" id="1">
         <actor-set-prop comment="false" x="0" y="471">
             <ACTOR eid="this" id="0"/>
             <int id="1" val=""/>
             <int id="2" val="10"/>
         </actor-set-prop>
     </group>
-    <group eventID="1" id="4">
+    <group eventID="1" id="2">
         <actor-set-prop comment="false" x="29" y="240">
             <ACTOR eid="this" id="0"/>
             <int id="1" val=""/>
