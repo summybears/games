@@ -1,0 +1,16 @@
+#
+#Fri Dec 07 11:52:12 PST 2018
+style=italic
+alphabet=
+color=\#ff0000
+shadow.y=0
+family=Monospaced
+shadow.x=0
+shadow.color=\#000000
+gradient.offset=4
+shadow.blur=0
+chars=all
+gradient.color=\#000000
+stroke.size=0
+antialias=true
+size=20
