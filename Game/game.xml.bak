@@ -63,8 +63,12 @@
         <key id="2" keyname="LEFT" name="left" vk="37" vks="37"/>
         <key id="3" keyname="RIGHT" name="right" vk="39" vks="39"/>
         <key id="4" keyname="SPACE" name="action1" vk="32" vks="32"/>
-        <key id="5" keyname="ENTER" name="action2" vk="10" vks="10"/>
+        <key id="5" keyname="ENTER" name="z" vk="10" vks="10"/>
         <key id="6" keyname="ENTER" name="enter" vk="10" vks="10"/>
+        <key id="7" keyname="W" name="w" vk="87" vks="87"/>
+        <key id="8" keyname="A" name="a" vk="65" vks="65"/>
+        <key id="9" keyname="S" name="s" vk="83" vks="83"/>
+        <key id="10" keyname="D" name="d" vk="68" vks="68"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>
