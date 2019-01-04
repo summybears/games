@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="1" desc="" eventsnippetid="6" extheight="544" extwidth="1216" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="85.0" height="480" id="0" name="level one" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1152">
+<scene depth="1" desc="" eventsnippetid="6" extheight="544" extwidth="1216" extx="-32" exty="-32" format="3.4.0" gravx="-10.0" gravy="45.0" height="480" id="0" name="level one" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1152">
     <layers>
         <grad-bg b1="255" b2="204" g1="204" g2="204" r1="0" r2="51"/>
         <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
@@ -13,18 +13,29 @@
         <actor a="0.0" aid="3" c="false" group="3" id="15" name="Reward 3" sx="1.0" sy="1.0" x="575" y="252" z="0"/>
         <actor a="0.0" aid="4" c="false" group="3" id="15" name="Reward 4" sx="1.0" sy="1.0" x="713" y="423" z="0"/>
         <actor a="0.0" aid="5" c="false" group="3" id="15" name="Reward 5" sx="1.0" sy="1.0" x="511" y="416" z="0"/>
-        <actor a="0.0" aid="6" c="false" group="3" id="2" name="Villian 6" sx="1.0" sy="1.0" x="408" y="253" z="0"/>
-        <actor a="0.0" aid="7" c="false" group="3" id="2" name="Villian 7" sx="1.0" sy="1.0" x="604" y="384" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="4" id="2" name="Villian 6" sx="1.0" sy="1.0" x="610" y="374" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="4" id="2" name="Villian 7" sx="1.0" sy="1.0" x="467" y="215" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="3" id="15" name="Reward 9" sx="1.0" sy="1.0" x="480" y="418" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="15" name="Reward 10" sx="1.0" sy="1.0" x="743" y="418" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="3" id="15" name="Reward 11" sx="1.0" sy="1.0" x="577" y="-136" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="3" id="15" name="Reward 12" sx="1.0" sy="1.0" x="1019" y="258" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="3" id="15" name="Reward 13" sx="1.0" sy="1.0" x="1123" y="323" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="3" id="15" name="Reward 14" sx="1.0" sy="1.0" x="929" y="350" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="3" id="6" name="Frenchie 15" sx="1.0" sy="1.0" x="1070" y="406" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="4" id="2" name="Villian 16" sx="1.0" sy="1.0" x="1073" y="170" z="0"/>
     </actors>
     <snippets/>
     <terrain>
         <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="224.0" y="384.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="1120.0" y="352.0"/>
         <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="576.0" y="288.0"/>
         <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="480.0" y="288.0"/>
         <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="288.0" y="352.0"/>
         <p pts="4,0.0,32.0,0.0,0.0,64.0,0.0,64.0,32.0" x="416.0" y="320.0"/>
         <p pts="4,96.0,0.0,96.0,32.0,0.0,32.0,0.0,0.0" x="480.0" y="448.0"/>
-        <p pts="4,160.0,0.0,160.0,32.0,0.0,32.0,0.0,0.0" x="32.0" y="448.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,160.0,0.0,160.0,32.0" x="32.0" y="448.0"/>
+        <p pts="10,160.0,0.0,160.0,64.0,0.0,64.0,0.0,32.0,32.0,32.0,32.0,0.0,64.0,0.0,64.0,32.0,128.0,32.0,128.0,0.0" x="992.0" y="416.0"/>
+        <p pts="6,64.0,32.0,96.0,32.0,96.0,64.0,0.0,64.0,0.0,0.0,64.0,0.0" x="992.0" y="288.0"/>
         <p pts="4,320.0,0.0,320.0,32.0,0.0,32.0,0.0,0.0" x="608.0" y="448.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>

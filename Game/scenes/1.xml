@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="1" desc="" eventsnippetid="8" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="85.0" height="480" id="1" name="Level 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+<scene depth="1" desc="" eventsnippetid="8" extheight="544" extwidth="1216" extx="-32" exty="-32" format="3.4.0" gravx="-10.0" gravy="45.0" height="480" id="1" name="Level 2" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1152">
     <layers>
-        <grad-bg b1="255" b2="255" g1="255" g2="204" r1="0" r2="51"/>
+        <grad-bg b1="51" b2="255" g1="51" g2="153" r1="51" r2="204"/>
         <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
     </layers>
     <joints/>
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="3" id="20" name="grouD 1" sx="22.625" sy="1.0" x="305" y="450" z="0"/>
-        <actor a="0.0" aid="2" c="false" group="3" id="4" name="Maizey 2" sx="1.0" sy="1.0" x="298" y="123" z="0"/>
-        <actor a="0.0" aid="3" c="false" group="3" id="4" name="Maizey 3" sx="1.0" sy="1.0" x="-196" y="-61" z="0"/>
-        <actor a="0.0" aid="4" c="false" group="3" id="20" name="grouD 4" sx="20.375" sy="1.0" x="301" y="328" z="0"/>
+        <actor a="0.0" aid="1" c="false" group="3" id="4" name="Maizey 1" sx="1.0" sy="1.0" x="338" y="278" z="0"/>
     </actors>
     <snippets/>
-    <terrain/>
+    <terrain>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="352.0" y="352.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="224.0" y="384.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="128.0" y="384.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="416.0" y="384.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="320.0" y="320.0"/>
+        <p pts="4,32.0,0.0,32.0,32.0,0.0,32.0,0.0,0.0" x="320.0" y="384.0"/>
+        <p pts="4,0.0,0.0,32.0,0.0,32.0,64.0,0.0,64.0" x="128.0" y="0.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,64.0,0.0,64.0,32.0" x="160.0" y="352.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,64.0,0.0,64.0,32.0" x="448.0" y="352.0"/>
+        <p pts="4,96.0,0.0,96.0,32.0,0.0,32.0,0.0,0.0" x="224.0" y="192.0"/>
+        <p pts="4,128.0,0.0,128.0,32.0,0.0,32.0,0.0,0.0" x="0.0" y="128.0"/>
+        <p pts="4,128.0,0.0,128.0,32.0,0.0,32.0,0.0,0.0" x="416.0" y="256.0"/>
+        <p pts="20,640.0,128.0,0.0,128.0,0.0,96.0,64.0,96.0,64.0,64.0,96.0,64.0,96.0,96.0,256.0,96.0,256.0,64.0,288.0,64.0,288.0,96.0,384.0,96.0,384.0,64.0,416.0,64.0,416.0,96.0,608.0,96.0,608.0,32.0,576.0,32.0,576.0,0.0,640.0,0.0" x="0.0" y="352.0"/>
+    </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>
