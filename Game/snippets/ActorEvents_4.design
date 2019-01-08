@@ -70,7 +70,7 @@
             </group>
         </step>
     </group>
-    <group eventID="1" id="12">
+    <group eventID="1" id="1">
         <plus comment="false" x="620" y="362">
             <get-wh comment="false" id="0" x="0" y="0">
                 <ACTOR eid="this" id="0"/>
@@ -169,7 +169,7 @@
                     <int id="0" val="0"/>
                     <int id="1" val="2"/>
                     <color b="255" g="153" id="2" r="153"/>
-                    <int id="3" val="1"/>
+                    <int id="3" val="3"/>
                     <int id="4" val="2"/>
                     <color b="0" g="0" id="5" r="0"/>
                 </scene-reload-color>

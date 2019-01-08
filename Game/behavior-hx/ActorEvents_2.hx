@@ -69,27 +69,99 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_15 extends ActorScript
+class ActorEvents_2 extends ActorScript
 {
+	public var _MovingRight:Bool;
+	public var _healthpoints:Actor;
+	public var _Healthpoints:Float;
+	public var _timer:Float;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
+		nameMap.set("Moving  Right", "_MovingRight");
+		_MovingRight = false;
+		nameMap.set("health points", "_healthpoints");
+		nameMap.set("Health points", "_Healthpoints");
+		_Healthpoints = 0.0;
+		nameMap.set("timer", "_timer");
+		_timer = 0.0;
 		
 	}
 	
 	override public function init()
 	{
 		
+		/* ======================== When Creating ========================= */
+		_Healthpoints = asNumber(3);
+		propertyChanged("_Healthpoints", _Healthpoints);
+		_timer = asNumber(1.5);
+		propertyChanged("_timer", _timer);
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if(_MovingRight)
+				{
+					actor.setXVelocity(5);
+				}
+				else
+				{
+					actor.setXVelocity(-5);
+				}
+			}
+		});
+		
 		/* ======================== Actor of Type ========================= */
 		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
 			if(wrapper.enabled && sameAsAny(getActorType(4), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
-				recycleActor(actor);
-				playSound(getSound(47));
-				Engine.engine.setGameAttribute("Score", (Engine.engine.getGameAttribute("Score") + 10));
+				recycleActor(actor.getLastCollidedActor());
+			}
+		});
+		
+		/* ======================== When Updating ========================= */
+		addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				if((_Healthpoints <= 0))
+				{
+					recycleActor(actor);
+				}
+			}
+		});
+		
+		/* ======================= Every N seconds ======================== */
+		runPeriodically(1000 * .1, function(timeTask:TimedTask):Void
+		{
+			if(wrapper.enabled)
+			{
+				_timer = asNumber((_timer - .1));
+				propertyChanged("_timer", _timer);
+				if((_timer <= 0))
+				{
+					_MovingRight = !(_MovingRight);
+					propertyChanged("_MovingRight", _MovingRight);
+					_timer = asNumber(1.5);
+					propertyChanged("_timer", _timer);
+				}
+			}
+		}, actor);
+		
+		/* ======================== Something Else ======================== */
+		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				_MovingRight = !(_MovingRight);
+				propertyChanged("_MovingRight", _MovingRight);
+				_timer = asNumber(1.5);
+				propertyChanged("_timer", _timer);
 			}
 		});
 		
