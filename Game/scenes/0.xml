@@ -13,8 +13,8 @@
         <actor a="0.0" aid="3" c="false" group="3" id="15" name="Reward 3" sx="1.0" sy="1.0" x="575" y="252" z="0"/>
         <actor a="0.0" aid="4" c="false" group="3" id="15" name="Reward 4" sx="1.0" sy="1.0" x="713" y="423" z="0"/>
         <actor a="0.0" aid="5" c="false" group="3" id="15" name="Reward 5" sx="1.0" sy="1.0" x="511" y="416" z="0"/>
-        <actor a="0.0" aid="6" c="false" group="4" id="2" name="Villian 6" sx="1.0" sy="1.0" x="610" y="374" z="0"/>
-        <actor a="0.0" aid="7" c="false" group="4" id="2" name="Villian 7" sx="1.0" sy="1.0" x="467" y="215" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="4" id="2" name="Villian 6" sx="1.0" sy="1.0" x="634" y="376" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="4" id="2" name="Villian 7" sx="1.0" sy="1.0" x="407" y="216" z="0"/>
         <actor a="0.0" aid="9" c="false" group="3" id="15" name="Reward 9" sx="1.0" sy="1.0" x="480" y="418" z="0"/>
         <actor a="0.0" aid="10" c="false" group="3" id="15" name="Reward 10" sx="1.0" sy="1.0" x="743" y="418" z="0"/>
         <actor a="0.0" aid="11" c="false" group="3" id="15" name="Reward 11" sx="1.0" sy="1.0" x="577" y="-136" z="0"/>
@@ -22,7 +22,7 @@
         <actor a="0.0" aid="13" c="false" group="3" id="15" name="Reward 13" sx="1.0" sy="1.0" x="1123" y="323" z="0"/>
         <actor a="0.0" aid="14" c="false" group="3" id="15" name="Reward 14" sx="1.0" sy="1.0" x="929" y="350" z="0"/>
         <actor a="0.0" aid="15" c="false" group="3" id="6" name="Frenchie 15" sx="1.0" sy="1.0" x="1070" y="406" z="0"/>
-        <actor a="0.0" aid="16" c="false" group="4" id="2" name="Villian 16" sx="1.0" sy="1.0" x="1073" y="170" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="4" id="2" name="Villian 16" sx="1.0" sy="1.0" x="903" y="212" z="0"/>
     </actors>
     <snippets/>
     <terrain>
