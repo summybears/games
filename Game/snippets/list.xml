@@ -109,8 +109,4 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet attachedevent="true" class="scripts.SceneEvents_4" classname="scripts.SceneEvents_4" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="14" name="SceneEvents_4" oid="-1" package="scripts." sceneid="4" shared="false" type="scene">
-        <blocks/>
-        <events/>
-    </snippet>
 </pack>

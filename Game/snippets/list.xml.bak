@@ -33,7 +33,7 @@
             <event displayName="Frenchie" enabled="true" id="6" name="event-collide-actortotype" order="6" repeats="true"/>
             <event displayName="Death" enabled="true" id="7" name="event-custom" order="2" repeats="true"/>
             <event displayName="Actor - Type" enabled="true" id="8" name="event-collide-actortotype" order="8" repeats="true"/>
-            <event displayName="Actor - Type" enabled="true" id="9" name="event-collide-actortotype" order="7" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="9" name="event-collide-actortotype" order="7" repeats="false"/>
         </events>
     </snippet>
     <snippet actorid="6" attachedevent="true" class="scripts.ActorEvents_6" classname="scripts.ActorEvents_6" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="4" name="ActorEvents_6" oid="-1" package="scripts." shared="false" type="actor">

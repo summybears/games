@@ -1,5 +1,5 @@
 #
-#Fri Dec 07 11:52:12 PST 2018
+#Fri Feb 01 10:52:18 PST 2019
 style=italic
 alphabet=
 color=\#ff0000
@@ -8,7 +8,7 @@ family=Monospaced
 shadow.x=0
 shadow.color=\#000000
 gradient.offset=4
-shadow.blur=0
+shadow.blur=2
 chars=all
 gradient.color=\#000000
 stroke.size=0
